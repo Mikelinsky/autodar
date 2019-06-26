@@ -1,0 +1,414 @@
+/* MEDIA QUERIES */
+
+/*for navbar*/
+@media (max-width: 991px) {
+    .navbar-style__nav-item {
+        height: 39px;
+        width: 100%;
+    }
+
+    .navbar-style__icon-package {
+        display: none;
+    }
+}
+
+/* for header height */
+@media (max-width: 1588.89px) {
+    .header {
+        height: 616px;
+    }
+}
+@media (min-width: 1589px) {
+    .header {
+        height: 800px;
+    }
+
+    .header__title {
+        font-size: 58px;
+    }
+
+    .header__subtitle {
+        font-size: 23px;
+    }
+
+    .header__btn {
+        padding: 8px 0;
+        width: 180px;
+    }
+
+    .header__logo-title {
+        font-size: 28px;
+    }
+
+    .header__logo-box {
+        width: 750px;
+        left: calc(50% - 375px);
+    }
+
+    .header__logo {
+        width: 160px;
+    }
+}
+@media (min-width: 2000px) {
+    .header {
+        height: 1000px;
+    }
+    .header__title {
+        font-size: 68px;
+    }
+
+    .header__subtitle {
+        font-size: 26px;
+    }
+
+    .header__btn {
+        font-size: 18px;
+        padding: 10px 0;
+        width: 200px;
+    }
+
+    .header__logo-title {
+        font-size: 41px;
+    }
+
+    .header__logo-box {
+        width: 900px;
+        left: calc(50% - 450px);
+    }
+
+    .header__logo {
+        width: 200px;
+    }
+}
+
+/* for assets icons element */
+
+@media (min-width: 320px) {
+    .assets {
+        margin-bottom: 916px;
+    }
+    .assets__logo-box {
+        bottom: -890px;
+    }
+}
+@media (min-width: 350px) {
+    .assets {
+        margin-bottom: 821px;
+    }
+    .assets__logo-box {
+        bottom: -794px;
+    }
+}
+@media (min-width: 372px) {
+    .assets {
+        margin-bottom: 724px;
+    }
+    .assets__logo-box {
+        bottom: -697px;
+    }
+}
+@media (min-width: 402px) {
+    .assets {
+        margin-bottom: 615px;
+    }
+    .assets__logo-box {
+        bottom: -588px;
+    }
+}
+@media (min-width: 512px) {
+    .assets {
+        margin-bottom: 472px;
+    }
+    .assets__logo-box {
+        bottom: -445px;
+    }
+}
+@media (min-width: 1200px) {
+    .assets__logo-box {
+        bottom: -299px;
+    }
+}
+
+/* for assets position */
+@media (min-width: 1200px) {
+    .assets {
+        margin-bottom: 331px;
+    }
+}
+@media (min-width: 1562px) and (max-width: 1860.98px) {
+    .assets {
+        height: 709px;
+        margin-bottom: 331px;
+    }
+}
+@media (min-width: 1861px) and (max-width: 2132px) {
+    .assets {
+        height: 813px;
+        margin-bottom: 254px;
+        padding-top: 120px;
+    }
+
+    .assets__logo-box {
+        bottom: -224px;
+    }
+}
+@media (min-width: 2133px) and (max-width: 2560px) {
+    .assets {
+        height: 975px;
+        padding-top: 170px;
+        margin-bottom: 174px;
+    }
+    .assets__logo-box {
+        bottom: -131px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+    
+    .top-bar__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .top-bar__link {
+        font-size: 12px;
+    }
+
+    .top-bar__logo {
+        margin-bottom: 10px;
+    }
+
+
+
+    .header__title {
+        font-size: 25px;
+        margin: 0 0 20px 0;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+    }
+
+    .header__btn-box {
+        margin-top: 20px;
+    }
+
+    .header__btn {
+        margin: 10px;
+    }
+
+    .header__logo-box {
+        width: 300px;
+        left: calc(50% - 150px);
+    }
+
+    .header__logos-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__jeep-cell {
+        margin-top: 20px;
+    }
+
+    .header__logo {
+        width: 80px;
+    }
+
+    .header__logo-title {
+        font-size: 21px;
+    }
+
+
+
+    .textarea__paragraph {
+        font-size: 14px;
+    }
+
+
+
+    .article__img {
+        position: static;
+    }
+
+    .article__row {
+        margin: 0;
+    }
+
+
+
+    .benefits__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits__icon-box {
+        width: 108px;
+        padding: 0 5px;
+    }
+
+    .benefits__icon-title {
+        font-size: 14px;
+    }
+
+    .benefits__paragraph {
+        font-size: 14px;
+    }
+
+
+
+
+    
+    .assets__title {
+        font-size: 21px;
+    }
+
+    .assets__li {
+        margin: 12px 0;
+    }
+
+    .assets__position {
+        font-size: 15px;
+    }
+
+    .assets__list {
+        padding: 0;
+    }
+
+    .assets__title--lower-title {
+        margin-bottom: 20px;
+    }
+
+    .assets__logo-icon {
+        margin: 6px 35px;
+    }
+
+    .assets__paragraph {
+        font-size: 15px;
+    }
+
+
+
+    .map__column {
+        text-align: center;
+    }
+
+    .contact__column {
+        text-align: center;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .article__img {
+        position: static;
+    }
+
+
+
+
+    .assets {
+        margin-bottom: 489px;
+    }
+
+    .assets__logo-box {
+        bottom: -461px;
+    }
+
+    .assets__li {
+        margin: 18px 0;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .article__title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .article__paragraph {
+        font-size: 14px;
+        line-height: inherit;
+    }
+
+    .article__img {
+        max-width: 132%;
+        left: -9%;
+    }
+
+    .article__logo {
+        width: 13%;
+    }
+
+
+
+
+    .benefits__icon-box {
+        padding: 0 5px;
+    }
+
+    .benefits__icon-title {
+        font-size: 14px;
+    }
+
+    .benefits__paragraph {
+        font-size: 14px;
+    }
+
+
+
+
+    .assets {
+        margin-bottom: 412px;
+    }
+
+    .assets__logo-box {
+        bottom: -382px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-style__nav-link {
+        font-size: 11px;
+    }
+
+
+
+    .article__title {
+        font-size: 25px;
+    }
+
+    .article__paragraph {
+        font-size: 14px;
+    }
+
+    .article__img {
+        max-width: 132%;
+        left: -9%;
+    }
+
+
+
+    .benefits__icon-box {
+        padding: 0 5px;
+    }
+
+
+
+    .assets {
+        margin-bottom: 336px;
+    }
+
+    .assets__logo-box {
+        bottom: -312px;
+    }
+
+}
